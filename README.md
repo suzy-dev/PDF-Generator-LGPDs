@@ -4,6 +4,13 @@
 
 O **Gerador de PDF LGPD** é um automatizador que cria documentos PDF personalizados, cada um contendo um link único direcionado para uma data específica do Diário Oficial da União. Esses documentos são utilizados para substituir arquivos localizados em [Ministério de Minas e Energia](https://www.gov.br/mme/pt-br/arquivos) (documentos do dou) nas respectivas datas.
 
+## Clonagem do Repositório
+
+Antes de começar, clone o repositório para sua máquina local. Utilize o seguinte comando:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 ## Instalação
 
 1. **Pré-requisitos:** Certifique-se de que você tem o Python instalado em sua máquina.
