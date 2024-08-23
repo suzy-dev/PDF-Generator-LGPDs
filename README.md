@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Gerador de PDF LGPD** é um automatizador que cria documentos PDF personalizados, cada um contendo um link único direcionado para uma data específica do Diário Oficial da União. Esses documentos são utilizados para substituir arquivos no site do Ministério de Minas e Energia (MME) nas respectivas datas. O programa é simples, mas poderoso, permitindo que o usuário gere rapidamente uma série de PDFs que seguem um padrão específico.
+O **Gerador de PDF LGPD** é um automatizador que cria documentos PDF personalizados, cada um contendo um link único direcionado para uma data específica do Diário Oficial da União. Esses documentos são utilizados para substituir arquivos no site do [Ministério de Minas e Energia](https://www.gov.br/mme/pt-br)(MME) nas respectivas datas. O programa é simples, mas poderoso, permitindo que o usuário gere rapidamente uma série de PDFs que seguem um padrão específico.
 
 ## Instalação
 

@@ -20,8 +20,8 @@ for i in range(1, 31):
 
     # Adiciona o texto do link centralizado horizontalmente
     pdf.set_y(170)  # Ajusta a posição vertical para onde o link será inserido
-    link = f'https://www.in.gov.br/leiturajornal?data={i:02d}-07-2015'
+    link = f'https://www.in.gov.br/leiturajornal?data={i:02d}-mm-aaaa'
     pdf.cell(0, 10, 'Clique aqui', ln=True, align='C', link=link)
-    nome_pdf = f"do-{i:02d}-07-2015"
-    pdf.output(f"./julho-2015/{nome_pdf}.pdf")
+    nome_pdf = f"do-{i:02d}-mm-aaaa"
+    pdf.output(f"./mes-ano/{nome_pdf}.pdf")
     print(f"PDF gerado: {nome_pdf}.pdf")
