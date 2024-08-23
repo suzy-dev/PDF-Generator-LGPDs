@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Gerador de PDF LGPD** é um automatizador que cria documentos PDF personalizados, cada um contendo um link único direcionado para uma data específica do Diário Oficial da União. Esses documentos são utilizados para substituir arquivos no site do [Ministério de Minas e Energia](https://www.gov.br/mme/pt-br/arquivos)(MME) nas respectivas datas. O programa é simples, mas poderoso, permitindo que o usuário gere rapidamente uma série de PDFs que seguem um padrão específico.
+O **Gerador de PDF LGPD** é um automatizador que cria documentos PDF personalizados, cada um contendo um link único direcionado para uma data específica do Diário Oficial da União. Esses documentos são utilizados para substituir arquivos localizados em [Ministério de Minas e Energia](https://www.gov.br/mme/pt-br/arquivos) (documentos do dou) nas respectivas datas.
 
 ## Instalação
 
@@ -62,3 +62,29 @@ for i in range(1, 31):
     nome_pdf = f"do-{i:02d}-07-2015"
     pdf.output(f"./julho-2015/{nome_pdf}.pdf")
     print(f"PDF gerado: {nome_pdf}.pdf")
+
+## Tarefa: Substituição de Arquivos do Diário Oficial da União (DOU) em Respeito à LGPD
+
+Como parte do cumprimento da nova Lei Geral de Proteção de Dados (LGPD), é necessário substituir arquivos do Diário Oficial da União (DOU) na página do Ministério de Minas e Energia. O processo envolve a substituição de arquivos antigos por novos PDFs gerados conforme as datas especificadas.
+
+### Instruções
+
+1. **Listar Arquivos no DOU:**
+
+   Para melhorar a eficácia na busca dos arquivos, utilize a URL abaixo para listar até 1500 arquivos por página. O padrão é listar apenas 20 arquivos por página, o que pode ser muito pouco considerando que existem mais de 25 mil arquivos.
+
+   **URL para listar 1500 arquivos por página:**
+   [https://www.gov.br/mme/pt-br/arquivos?b_size=1500&b_start:int=3000](https://www.gov.br/mme/pt-br/arquivos?b_size=1500&b_start:int=3000)
+
+   - `b_size` define a quantidade de arquivos exibidos por página.
+   - `b_start:int` define o ponto de início para a listagem de arquivos.
+
+   Após acessar a URL, utilize `Ctrl + F` para procurar pelos arquivos do DOU com o padrão de nome "do-00-0000".
+
+   (./listar.jpeg)
+
+2. **Substituição dos Arquivos:**
+
+   Substitua cada arquivo listado pelo novo PDF gerado pelo **Gerador de PDF LGPD**. Certifique-se de que as datas dos arquivos substituídos correspondem às datas dos PDFs gerados.
+
+   Assegure-se de que os arquivos substituídos estejam atualizados e em conformidade com os requisitos da LGPD.
