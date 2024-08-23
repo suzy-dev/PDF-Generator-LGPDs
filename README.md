@@ -81,10 +81,8 @@ Como parte do cumprimento da nova Lei Geral de Proteção de Dados (LGPD), é ne
 
    Após acessar a URL, utilize `Ctrl + F` para procurar pelos arquivos do DOU com o padrão de nome "do-00-0000".
 
-   (./listar.jpeg)
+   ![listando 1500 arquivos e procurando por do-](listar.jpeg)
 
 2. **Substituição dos Arquivos:**
 
    Substitua cada arquivo listado pelo novo PDF gerado pelo **Gerador de PDF LGPD**. Certifique-se de que as datas dos arquivos substituídos correspondem às datas dos PDFs gerados.
-
-   Assegure-se de que os arquivos substituídos estejam atualizados e em conformidade com os requisitos da LGPD.
