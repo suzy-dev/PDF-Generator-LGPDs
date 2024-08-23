@@ -62,7 +62,7 @@ for i in range(1, 31):
     nome_pdf = f"do-{i:02d}-07-2015"
     pdf.output(f"./julho-2015/{nome_pdf}.pdf")
     print(f"PDF gerado: {nome_pdf}.pdf")
-
+```
 ## Tarefa: Substituição de Arquivos do Diário Oficial da União (DOU) em Respeito à LGPD
 
 Como parte do cumprimento da nova Lei Geral de Proteção de Dados (LGPD), é necessário substituir arquivos do Diário Oficial da União (DOU) na página do Ministério de Minas e Energia. O processo envolve a substituição de arquivos antigos por novos PDFs gerados conforme as datas especificadas.
